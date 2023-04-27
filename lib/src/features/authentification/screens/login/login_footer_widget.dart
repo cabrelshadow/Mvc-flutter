@@ -26,7 +26,9 @@ Column LoginFooterWidget(BuildContext context) {
         width: double.infinity,
          height: 50,
 
-        child: OutlinedButton.icon(onPressed: (){},
+        child: OutlinedButton.icon(onPressed: (){
+
+        },
             icon:Image(image: AssetImage( iconLogin),width:20.0 ,),
             style: OutlinedButton.styleFrom(
                 foregroundColor: btnBorder,
