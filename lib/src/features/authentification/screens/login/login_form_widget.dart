@@ -49,16 +49,7 @@ Form LoginForm() {
               Text(tForgetPassword),
             ),
           ),
-          SizedBox(
-            width: double.infinity,
-            height: 50,
-            child: ElevatedButton(onPressed:(){} ,
-              style: ElevatedButton.styleFrom(
-                backgroundColor: btnBorder,
-              ),
-              child:Text(tLogin.toUpperCase()),
-            ),
-          )
+
 
         ],
       ),

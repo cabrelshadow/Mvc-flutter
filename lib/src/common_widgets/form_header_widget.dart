@@ -23,12 +23,6 @@ class FormHeaderWidget extends StatelessWidget {
 
         Text(title,style: GoogleFonts.poppins(fontWeight: FontWeight.bold,fontSize: 22) ),
         Text(subTilte,style: GoogleFonts.poppins(fontSize: 17)),
-        /* --- end -----*/
-
-        /* ---section 2 {FORM} -----*/
-
-
-        /* --- end-----*/
 
       ],
 

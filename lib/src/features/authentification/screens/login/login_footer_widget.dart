@@ -13,6 +13,17 @@ Column LoginFooterWidget(BuildContext context) {
       SizedBox(height: tDefauldSize -20.0,),
       SizedBox(
         width: double.infinity,
+        height: 50,
+        child: ElevatedButton(onPressed:(){} ,
+          style: ElevatedButton.styleFrom(
+            backgroundColor: btnBorder,
+          ),
+          child:Text(tLogin.toUpperCase()),
+        ),
+      ),
+      SizedBox(height: tDefauldSize -10.0,),
+      SizedBox(
+        width: double.infinity,
          height: 50,
 
         child: OutlinedButton.icon(onPressed: (){},
