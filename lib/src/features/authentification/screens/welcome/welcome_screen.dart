@@ -8,6 +8,7 @@ import 'package:tiket/src/constants/image_string.dart';
 import 'package:tiket/src/constants/sizes.dart';
 import 'package:tiket/src/constants/text_strings.dart';
 import 'package:tiket/src/features/authentification/screens/login/login_screen.dart';
+import 'package:tiket/src/features/authentification/screens/registration/signup_screen.dart';
 class WelcomePage extends StatelessWidget {
   WelcomePage({Key? key}) : super(key: key);
 
@@ -51,9 +52,7 @@ class WelcomePage extends StatelessWidget {
                Expanded(
                    child:
                    ElevatedButton(
-                     onPressed:(){
-
-                     },
+                     onPressed:()=>Get.to(SignupScreen()),
                      style: ElevatedButton.styleFrom(
                        elevation: 0,
                        shape:  RoundedRectangleBorder(),
