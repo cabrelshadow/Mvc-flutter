@@ -6,6 +6,9 @@ const String tOnboardingImagePage2="assets/image/on2.png";
 const String tOnboardingImagePage3="assets/image/on3.png";
 //welcome image string
 const String welcomeImage="assets/image/wel.png";
+const String forgetpassword="assets/image/password.png";
 //login image string
 const String loginimage="assets/image/log.png";
 const String  iconLogin="assets/image/google.png";
+const String  userIcon="assets/image/peson.png";
+const String  bookmark="assets/image/bookm.png";

@@ -6,8 +6,12 @@ import 'package:tiket/src/constants/colors.dart';
 import 'package:tiket/src/constants/image_string.dart';
 import 'package:tiket/src/constants/sizes.dart';
 import 'package:tiket/src/constants/text_strings.dart';
-import 'package:tiket/src/features/authentification/controller/splash_screen_controller.dart';
+
 import 'package:tiket/src/features/authentification/screens/welcome/welcome_screen.dart';
+
+import '../../controller/splash_screen_controller.dart';
+
+
 
 class Splashscreen extends StatelessWidget {
    Splashscreen({Key? key}) : super(key: key);

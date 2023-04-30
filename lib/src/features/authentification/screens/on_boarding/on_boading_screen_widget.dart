@@ -3,6 +3,8 @@ import 'package:google_fonts/google_fonts.dart';
 
 import '../../../../constants/sizes.dart';
 import '../../models/model_on_boarding.dart';
+
+
 class OnBoardingPageWidget extends StatelessWidget {
   const OnBoardingPageWidget({
     super.key,

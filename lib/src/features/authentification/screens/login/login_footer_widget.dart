@@ -1,5 +1,8 @@
 import'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:tiket/src/features/core/screens/dashboard/dashboard.dart';
 
 import '../../../../constants/colors.dart';
 import '../../../../constants/image_string.dart';
@@ -14,7 +17,9 @@ Column LoginFooterWidget(BuildContext context) {
       SizedBox(
         width: double.infinity,
         height: 50,
-        child: ElevatedButton(onPressed:(){} ,
+        child: ElevatedButton(onPressed:(){
+          Get.to(Dashboard());
+        } ,
           style: ElevatedButton.styleFrom(
             backgroundColor: btnBorder,
           ),

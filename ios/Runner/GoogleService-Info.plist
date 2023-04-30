@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>61927060019-n2al0e2i5bc809vgd1obhpmoval33oor.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.61927060019-n2al0e2i5bc809vgd1obhpmoval33oor</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAQGUZo0Dv6n2jUALj0gBf3y3GKxdMQkDM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>61927060019</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.tiket</string>
+	<key>PROJECT_ID</key>
+	<string>loginflutter-22ea9</string>
+	<key>STORAGE_BUCKET</key>
+	<string>loginflutter-22ea9.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:61927060019:ios:010ffcea8d212107c12946</string>
+</dict>
+</plist>

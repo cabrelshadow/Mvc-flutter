@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "61927060019",
+    "project_id": "loginflutter-22ea9",
+    "storage_bucket": "loginflutter-22ea9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61927060019:android:de0ee16f93f47426c12946",
+        "android_client_info": {
+          "package_name": "com.example.tiket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61927060019-ct58nufjq397nbnk7fmcm2h336971ulc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjvzKE6SGxBw9Ve5vKVU3sZN4q-ZWj8Bk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61927060019-ct58nufjq397nbnk7fmcm2h336971ulc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

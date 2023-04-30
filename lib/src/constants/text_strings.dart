@@ -18,7 +18,7 @@ const String tNext = "Next";
 const String tLogin = "Login";
 const String tEmail = "E-Mail";
 const String tSignup = "Signup";
-const String tPhoneNo = "Phone No";
+const String tPhoneNo = "Phone";
 const String tPassword = "Password";
 const String tFullName = "Full Name";
 const String tForgetPassword = "Forget Password";
@@ -48,3 +48,16 @@ const String tForgetPhoneSubTitle = "Enter your registered Phone No to receive O
 
 // -- Forget Password Via E-Mail - Text
 const String tForgetMailSubTitle = "Enter your registered E-Mail to receive OTP";
+// OTP Screen text
+const String tOtpTitle="CO\nDE";
+const String tOtpsubitle="Verfication";
+const String tOtpMessage="Enter the verification code sent at";
+//dashboard Screen text
+const String tDashoardTitle="Hey,conding";
+const String tDashoardHeading="Explore Cours";
+const String tDashboardSearch="Search...";
+const String tDashboardBannerTitle1="Android for beginners";
+const String tDashboardBannerTitle2="Java";
+const String tDashboardBannersubTitle="10 lessons";
+const String tDashboardBannerButton="View All";
+const String tDashboardTopCourses="Top Courses";

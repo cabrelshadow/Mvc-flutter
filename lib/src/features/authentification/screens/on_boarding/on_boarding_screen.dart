@@ -4,10 +4,12 @@ import 'package:liquid_swipe/liquid_swipe.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:tiket/src/constants/colors.dart';
 import 'package:tiket/src/constants/image_string.dart';
-import 'package:tiket/src/constants/sizes.dart';
-import 'package:tiket/src/constants/text_strings.dart';
-import 'package:tiket/src/features/authentification/models/model_on_boarding.dart';
 
+import 'package:tiket/src/constants/text_strings.dart';
+
+
+
+import '../../models/model_on_boarding.dart';
 import 'on_boading_screen_widget.dart';
 class OnBoardingScreen extends StatefulWidget {
    const OnBoardingScreen({Key? key}) : super(key: key);

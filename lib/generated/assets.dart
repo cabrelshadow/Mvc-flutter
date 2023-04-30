@@ -4,6 +4,7 @@ class Assets {
 
   static const String imageB6 = 'assets/image/B6.jpg';
   static const String imageBg = 'assets/image/bg.png';
+  static const String imageBookm = 'assets/image/bookm.png';
   static const String imageG = 'assets/image/g.png';
   static const String imageGd = 'assets/image/gd.png';
   static const String imageGoogle = 'assets/image/google.png';
@@ -12,6 +13,8 @@ class Assets {
   static const String imageOn1 = 'assets/image/on1.png';
   static const String imageOn2 = 'assets/image/on2.png';
   static const String imageOn3 = 'assets/image/on3.png';
+  static const String imagePassword = 'assets/image/password.png';
+  static const String imagePeson = 'assets/image/peson.png';
   static const String imageSplash = 'assets/image/splash.png';
   static const String imageWel = 'assets/image/wel.png';
 

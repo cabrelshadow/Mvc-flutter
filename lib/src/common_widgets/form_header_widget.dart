@@ -15,13 +15,13 @@ class FormHeaderWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     final size=MediaQuery.of(context).size;
     return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
+      crossAxisAlignment: CrossAxisAlignment.center,
 
       children: [
         /* ---section 1 -----*/
         Image(image: AssetImage(image),height: size.height *0.2,),
 
-        Text(title,style: GoogleFonts.poppins(fontWeight: FontWeight.bold,fontSize: 22) ),
+        Text(title,style: GoogleFonts.poppins(fontWeight: FontWeight.bold,fontSize: 22,) ),
         Text(subTilte,style: GoogleFonts.poppins(fontSize: 17)),
 
       ],

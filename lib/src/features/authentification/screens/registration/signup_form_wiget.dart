@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
+import 'package:tiket/src/features/authentification/controller/signup_controller.dart';
 
 import '../../../../constants/colors.dart';
 import '../../../../constants/sizes.dart';
@@ -11,13 +14,19 @@ class SignUpFormWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final controller=Get.put(SignUpController());
+    final _formKey=GlobalKey<FormState>();
+    bool isLoading=false;
+
     return Container(
       padding: EdgeInsets.symmetric(vertical: tDefauldSize),
       child: Form(
+        key: _formKey,
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             TextFormField(
+              controller: controller.fullName,
               decoration: InputDecoration(
                   label:Text(tFullName),
                   prefixIcon: Icon(Icons.person_2_outlined,color: btnBorder,
@@ -33,6 +42,7 @@ class SignUpFormWidget extends StatelessWidget {
             ),
             SizedBox(height: tDefauldSize-20,),
             TextFormField(
+              controller: controller.email,
               decoration: InputDecoration(
                   label:Text(tEmail),
                   prefixIcon: Icon(Icons.email_outlined,color: btnBorder,
@@ -48,6 +58,7 @@ class SignUpFormWidget extends StatelessWidget {
             ),
             SizedBox(height: tDefauldSize-20,),
             TextFormField(
+              controller: controller.phoneNo,
               decoration: InputDecoration(
                   label:Text(tPhoneNo),
                   prefixIcon: Icon(Icons.phone,color: btnBorder,
@@ -63,6 +74,7 @@ class SignUpFormWidget extends StatelessWidget {
             ),
             SizedBox(height: tDefauldSize-20,),
             TextFormField(
+              controller: controller.password,
               decoration: InputDecoration(
                   label:Text(tPassword),
                   prefixIcon: Icon(Icons.fingerprint,color: btnBorder,
@@ -80,7 +92,15 @@ class SignUpFormWidget extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               height: 50,
-              child: ElevatedButton(onPressed:(){} ,
+
+                child: ElevatedButton(onPressed:(){
+
+                if(_formKey.currentState!.validate()){
+  
+
+                  SignUpController.instance.registerUser(controller.email.text.trim(), controller.password.text.trim());
+                }
+              } ,
                 style: ElevatedButton.styleFrom(
                   backgroundColor: btnBorder,
                 ),
